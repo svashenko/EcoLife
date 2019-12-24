@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/452826394c.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>EcoLife</title>
+</head>
+<body >
+	<header class="header-light">
+		<div class="container">
+			<div class="header__top">				
+				<div class="header__top-call">
+					
+					<div class="header__top-call__number">
+						<a class="header__top-call__img" href="tel:88007774827"><img src="img/call-light.png" alt=""></a>
+						<a href="tel:8800777482" >8 800 777 48 27</a> 
+					</div>
+					<div class="header__top-call__callback"><a class="callback-btn" href="#callback-form">перезвоните мне</a></div>
+				</div>
+
+				<a href="index.html" class="header__top-logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="header__top-activity">
+					<a href="#" class="header__top-activity__personal">
+						<img class="header__top-activity__img" src="img/personal.png" alt=""> Личный кабинет
+					</a>
+					<span class="divider">|</span>
+					<a class="header__top-activity__registration">Регистрация</a>
+					<a href="#" class="header__top-activity__cart"><img src="img/cart.png" alt="">
+						<span>0</span></a>
+				</div>
+			</div>
+
+			<div class="header__bottom">				
+				<nav class="header__nav">
+					<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+					<label for="menu" class="toggleMenu">
+						<span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-bars fa-stack-1x"></i></span>
+						<input class="search" type="search" placeholder="Введите для поиска...">
+						<button class="search-btn" type="submit"><img src="img/search-light.png" alt=""></button>
+					</label>
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li class="catalog-menu">Каталог
+							<ul>
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Уход за кожей</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+								<label class="menu-accordion">
+									<li class=>
+										<div class="menu-accordion__name">Уход за волосами</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Эко моющие средства</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+							</ul>
+						</li>
+						<li><a href="new-goods.html">Новинки</a></li>
+						<li><a href="about-us.html">О компании</a></li>
+						<li><a href="contact-us.html">Контакты</a></li>
+					</ul>
+				</nav>
+
+				<div class="header__bottom-search">
+					<input type="search" placeholder="Введите для поиска">
+					<button type="submit" class="header__bottom-search__btn"><img src="img/search-light.png" alt=""></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden">
+			<form class="callback-form" id="callback-form">
+				<div class="callback-form__inner">
+					<div class="callback-form__title">Оставьте Ваши данные и наш менеджер свяжется с Вами.</div>	
+					<input type="text" placeholder="Введите Ваше имя">
+					<input type="text" placeholder="Введите Ваш телефон">
+					<div class="callback-form__btn">
+						<a href="#" class="btn">ОСТАВИТЬ ЗАЯВКУ</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	
+	<!-- start of main content -->
+
+	<main id="home">	
+
+		<section>
+			<div class="container-fluid">
+				<div class="main-top" style="background: url(img/main-header-bg.jpg) center/cover no-repeat;">
+					<div class="container">
+						<div class="main-top__left">
+							<h1 class="main-top__header">Жизнь <br> без химии </h1>
+							<h3 class="main-top__subheader">интернет-магазин органической косметики и эко моющих средств</h3>
+							<a href="catalog.html" class="main-top__btn">перейти в каталог</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="categories">			
+					<div class="categories-item">
+						<div class="categories-item__img"><img src="img/main-categories-1.jpg" alt=""></div>
+						<div class="categories-item__text">
+							<div class="categories-item__title">УХОД ЗА КОЖЕЙ</div>
+							<div class="categories-item__descr">Товары для лица и тела</div>
+						</div>					
+					</div>
+
+					<div class="categories-item">
+						<div class="categories-item__img"><img src="img/main-categories-2.jpg" alt=""></div>
+						<div class="categories-item__text">
+							<div class="categories-item__title">УХОД ЗА ВОЛОСАМИ</div>
+							<div class="categories-item__descr">Товары для волос: шампуни, гели</div>
+						</div>					
+					</div>
+
+					<div class="categories-item">
+						<div class="categories-item__img"><img src="img/main-categories-3.jpg" alt=""></div>
+						<div class="categories-item__text">
+							<div class="categories-item__title">Эко моющие средства для дома</div>
+							<div class="categories-item__descr">Моющие средства для посуды и дома</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="main-new">
+					<h3 class="title-sm title-border">		
+						<span class="title-sm__text">Новинки</span>				
+					<div class="slider-nav">
+						<span class="slider__arrow-prev "> < </span>
+						<span class="slider__arrow-next "> > </span>
+					</div>
+					</h3>
+					<div class="main-slider ">
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item slider-item">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="promo" style="background: url(img/promo-bg.jpg) center/cover no-repeat;">
+				<div class="container">
+					<h2 class="title-bg">EcoLife моющее <br> средство для пола и ковров</h2>
+					<div class="promo__text">представляет собой сумму из 125-250 ти различных биологических <br> активных соединений веществ и микроэлементов</div>
+					<div class="promo__img"><img src="img/promo-img.png" alt=""></div>
+					<div class="promo__btn">
+						<a href="single-goods.html" class="promo__btn-link">Узнать подробнее</a>
+						<button type="submit" class="promo__btn-cart">В корзину</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="common">
+				<div class="container">
+					<h3 class="title-sm title-border">
+						<span class="title-sm__text">Часто покупают</span>
+					</h3>
+					<div class="common__inner">
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+						<div class="goods-item ">
+							<div class="goods-item__img"><img src="img/goods.png" alt=""></div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="antibac" style="background: url(img/antibac-bg.jpg) center/cover no-repeat;">
+				<div class="container">
+					<div class="antibac__inner">
+						<div class="antibac__left"><img src="img/antibac-img.png" alt=""></div>
+
+						<div class="antibac__right">
+							<div class="title-bg">АНТИБАКТЕРИАЛЬНЫЙ</div>
+							<div class="title-sm">гель для посуды №1</div>
+							<div class="antibac__right-btn"><button class="antibac-cart">В корзину</button></div>
+							<div class="antibac__right-more"><a class="antibac-link" href="single-goods.html">подробнее</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="advantages">
+				<div class="container">
+					<div class="advantages__inner">
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-1.png" alt=""></div>
+							<div class="advantages-item__text">Мы работаем только с качественным Европейским сырьем: компании Chemotex Чехия, Германия.</div>
+						</div>
+
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-2.png" alt=""></div>
+							<div class="advantages-item__text">Всегда стараемся максимально долго удерживать стабильную цену</div>
+						</div>
+							
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-3.png" alt=""></div>
+							<div class="advantages-item__text">Предлагаем участие в бонусных программах</div>
+						</div>
+
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-4.png" alt=""></div>
+							<div class="advantages-item__text">Постоянно работаем над увеличением ассортимента</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="our-news" style="background: url(img/our-news-bg.jpg) center/cover no-repeat;">
+				<div class="container">
+					<div class="our-news__inner">
+						<div class="our-news__left">
+							<h2 class="title-bg">Новости магазина в instagram</h2>
+						</div>
+						<div class="our-news__right">
+							<img class="our-news__arrow" src="img/our-news-arrow.png" alt="">
+							<a href="#"><img src="img/our-news-insta.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+
+	<!-- end of main content -->
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer-column">
+						<a href="index.html" class="footer__logo"><img src="img/footer-logo.png" alt=""></a href="index.html">
+						<div class="footer__copyright">© TopLife 2019. Все прва защищены.</div>
+						<a href="#" class="footer__privacy"><span>Политика конфиденциальности</span></a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a class="active" href="index.html">Главная</a>
+						<a href="catalog.html">Каталог</a>
+						<a href="new-goods.html">Новинки</a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a href="about-us.html">О компании</a>
+						<a href="contact-us.html">Контакты</a>
+						<a href="#">Бизнес с TopLife</a>
+					</div>
+
+					<div class="footer-column">
+						<a href="tel:88007774527" class="footer__phone"><img src="img/phone.png" alt="">8 800 777 48 27</a>
+						<a href="#" class="footer__mail"><img src="img/mail.png" alt="">info@toplife.spb.ru</a>
+					</div>
+
+					<div class="footer-column">
+						<div class="footer__map"><img src="img/map-mark.png" alt="">Санкт-Петербург, Богатырский пр. дом 14 к2 </div>
+						<a href="#" class="footer__find"><span>найти на карте</span></a>
+					</div>
+				</div>
+				
+				<ul class="footer-nav-mobile">
+					<li><a class="active" href="index.html">Главная</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="new-goods.html">Новинки</a></li>
+					<li><a href="about-us.html">О компании</a></li>
+					<li><a href="contact-us.html">Контакты</a></li>
+					<li><a href="#">Бизнес с TopLife</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</footer>	
+<div class="scripts">
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</div>
+</body>
+</html>

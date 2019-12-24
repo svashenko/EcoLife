@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/452826394c.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>EcoLife</title>
+</head>
+<body >
+	<header class="header-light">
+		<div class="container">
+			<div class="header__top">				
+				<div class="header__top-call">
+					
+					<div class="header__top-call__number">
+						<a class="header__top-call__img" href="tel:88007774827"><img src="img/call-light.png" alt=""></a>
+						<a href="tel:8800777482" >8 800 777 48 27</a> 
+					</div>
+					<div class="header__top-call__callback"><a class="callback-btn" href="#callback-form">перезвоните мне</a></div>
+				</div>
+
+				<a href="index.html" class="header__top-logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="header__top-activity">
+					<a href="#" class="header__top-activity__personal">
+						<img class="header__top-activity__img" src="img/personal.png" alt=""> Личный кабинет
+					</a>
+					<span class="divider">|</span>
+					<a class="header__top-activity__registration">Регистрация</a>
+					<a href="#" class="header__top-activity__cart"><img src="img/cart.png" alt="">
+						<span>0</span></a>
+				</div>
+			</div>
+
+			<div class="header__bottom">				
+				<nav class="header__nav">
+					<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+					<label for="menu" class="toggleMenu">
+						<span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-bars fa-stack-1x"></i></span>
+						<input class="search" type="search" placeholder="Введите для поиска...">
+						<button class="search-btn" type="submit"><img src="img/search-light.png" alt=""></button>
+					</label>
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li class="catalog-menu">Каталог
+							<ul>
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Уход за кожей</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+								<label class="menu-accordion">
+									<li class=>
+										<div class="menu-accordion__name">Уход за волосами</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Эко моющие средства</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+							</ul>
+						</li>
+						<li><a href="new-goods.html">Новинки</a></li>
+						<li><a href="about-us.html">О компании</a></li>
+						<li><a href="contact-us.html">Контакты</a></li>
+					</ul>
+				</nav>
+
+				<div class="header__bottom-search">
+					<input type="search" placeholder="Введите для поиска">
+					<button type="submit" class="header__bottom-search__btn"><img src="img/search-light.png" alt=""></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden">
+			<form class="callback-form" id="callback-form">
+				<div class="callback-form__inner">
+					<div class="callback-form__title">Оставьте Ваши данные и наш менеджер свяжется с Вами.</div>	
+					<input type="text" placeholder="Введите Ваше имя">
+					<input type="text" placeholder="Введите Ваш телефон">
+					<div class="callback-form__btn">
+						<a href="#" class="btn">ОСТАВИТЬ ЗАЯВКУ</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	
+	<!-- start of main content -->
+	<main id="about-us">	
+
+		<section>
+			<div class="description" style="background: url(img/about-us-bg.jpg);">
+				<div class="container">
+					<h1 class="title-bg">Интернет-магазин<br>органической косметики<br>и эко моющих средств</h1>
+					<div class="description__text">Один из самых крупных интернет-магазинов органической косметики и эко моющих средств в России.
+						Основанная наша цель - это сделать качественные товары доступными.  Мы знаем, на сколько, порой сложно
+						найти качественную косметику и моющие средства. В своем магазине мы собрали лучшие и самые
+						необходимые товары. Цены вас приятно удивет. Мы работаем напрямую с крупнейшими производителями
+						и продаем только сертифицированную продукцию.</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="reasons">
+				<div class="container">
+					<h2 class="title-bg">4 главных причины <br> почему стоит выбрать нас</h2>
+					<div class="reasons__inner">
+						<div class="reasons-item">
+							<div class="reasons-item__title"><img src="img/advantages-1.png" alt=""><span>Выгода, качество и доставка</span></div>
+							<div class="reasons-item__text">Мы гарантируем вам лучшее соотношение цены и качества в России: более 30 000 натуральных продуктов, все товары продаются на Российском рынке под оригинальными брендами. Мы также гарантируем доставку вашего заказа.</div>
+						</div>
+
+						<div class="reasons-item">
+							<div class="reasons-item__title"><img src="img/reasons-2.png" alt=""><span>Гарантия свежести и качества</span></div>
+							<div class="reasons-item__text">Товарные запасы сменяются 8 раз в год. Мы предлагаем вам самые свежие продукты! Вы даже можете увидеть срок годности на большинстве товаров, как если бы вы взяли с полки товар в обычном магазине.</div>
+						</div>
+
+						<div class="reasons-item">
+							<div class="reasons-item__title"><img src="img/reasons-3.png" alt=""><span>Круглосуточная служба поддержки</span></div>
+							<div class="reasons-item__text">С нами можно связаться в чате и на сайте 24 часа в сутки, 7 дней в неделю. Мы будем рады ответить на ваши вопросы и помочь вам с заказом.</div>
+						</div>
+
+						<div class="reasons-item">
+							<div class="reasons-item__title"><img src="img/reasons-4.png" alt=""><span>Отношение к Вашим данным</span></div>
+							<div class="reasons-item__text">Мы придаем первостепенное значение защите ваших персональных данных. С момента основания наша компания никогда не продавала и не делилась информацией о клиентах с третьими сторонами.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>				
+
+		<section>
+			<div class="advantages">
+				<div class="container">
+					<h3 class="title-sm">а так же</h3>
+					<div class="advantages__inner">
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-1.png" alt=""></div>
+							<div class="advantages-item__text">Мы работаем только с качественным Европейским сырьем: компании Chemotex Чехия, Германия.</div>
+						</div>
+
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-2.png" alt=""></div>
+							<div class="advantages-item__text">Всегда стараемся максимально долго удерживать стабильную цену</div>
+						</div>
+							
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-3.png" alt=""></div>
+							<div class="advantages-item__text">Предлагаем участие в бонусных программах</div>
+						</div>
+
+						<div class="advantages-item">
+							<div class="advantages-item__img"><img src="img/advantages-4.png" alt=""></div>
+							<div class="advantages-item__text">Постоянно работаем над увеличением ассортимента</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="our-news" style="background: url(img/our-news-bg.jpg) center/cover no-repeat;">
+				<div class="container">
+					<div class="our-news__inner">
+						<div class="our-news__left">
+							<h2 class="title-bg">Новости магазина в instagram</h2>
+						</div>
+						<div class="our-news__right">
+							<img class="our-news__arrow" src="img/our-news-arrow.png" alt="">
+							<a href="#"><img src="img/our-news-insta.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- end of main content -->
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer-column">
+						<a href="index.html" class="footer__logo"><img src="img/footer-logo.png" alt=""></a href="index.html">
+						<div class="footer__copyright">© TopLife 2019. Все прва защищены.</div>
+						<a href="#" class="footer__privacy"><span>Политика конфиденциальности</span></a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a href="index.html">Главная</a>
+						<a href="catalog.html">Каталог</a>
+						<a href="new-goods.html">Новинки</a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a class="active" href="about-us.html">О компании</a>
+						<a href="contact-us.html">Контакты</a>
+						<a href="#">Бизнес с TopLife</a>
+					</div>
+
+					<div class="footer-column">
+						<a href="tel:88007774527" class="footer__phone"><img src="img/phone.png" alt="">8 800 777 48 27</a>
+						<a href="#" class="footer__mail"><img src="img/mail.png" alt="">info@toplife.spb.ru</a>
+					</div>
+
+					<div class="footer-column">
+						<div class="footer__map"><img src="img/map-mark.png" alt="">Санкт-Петербург, Богатырский пр. дом 14 к2 </div>
+						<a href="#" class="footer__find"><span>найти на карте</span></a>
+					</div>
+				</div>
+				
+				<ul class="footer-nav-mobile">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="new-goods.html">Новинки</a></li>
+					<li><a class="active" href="about-us.html">О компании</a></li>
+					<li><a href="contact-us.html">Контакты</a></li>
+					<li><a href="#">Бизнес с TopLife</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</footer>	
+<div class="scripts">
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/452826394c.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>EcoLife</title>
+</head>
+<body >
+	<header class="header-dark">
+		<div class="container">
+			<div class="header__top">				
+				<div class="header__top-call">
+					
+					<div class="header__top-call__number">
+						<a class="header__top-call__img" href="tel:88007774827"><img src="img/phone.png" alt=""></a>
+						<a href="tel:8800777482" >8 800 777 48 27</a> 
+					</div>
+					<div class="header__top-call__callback"><a class="callback-btn" href="#callback-form">перезвоните мне</a></div>
+				</div>
+
+				<a href="index.html" class="header__top-logo"><img src="img/footer-logo.png" alt=""></a>
+
+				<div class="header__top-activity">
+					<a href="#" class="header__top-activity__personal">
+						<img class="header__top-activity__img" src="img/personal-dark.png" alt=""> Личный кабинет
+					</a>
+					<span class="divider">|</span>
+					<a class="header__top-activity__registration">Регистрация</a>
+					<a href="#" class="header__top-activity__cart"><img src="img/cart-dark.png" alt="">
+						<span>0</span></a>
+				</div>
+			</div>
+
+			<div class="header__bottom">				
+				<nav class="header__nav">
+					<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+					<label for="menu" class="toggleMenu">
+						<span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-bars fa-stack-1x"></i></span>
+						<input class="search" type="search" placeholder="Введите для поиска...">
+						<button class="search-btn" type="submit"><img src="img/search-light.png" alt=""></button>
+					</label>
+					<ul class="menu">
+						<li><a href="index.html">Главная</a></li>
+						<li class="catalog-menu">Каталог
+							<ul>
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Уход за кожей</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+								<label class="menu-accordion">
+									<li class=>
+										<div class="menu-accordion__name">Уход за волосами</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+
+								<label class="menu-accordion">
+									<li>
+										<div class="menu-accordion__name">Эко моющие средства</div>	
+										<input type="radio" name="menu-radio" class="menu-accordion__radio">
+										<ol class="menu-accordion__body">
+											<li class="li"><a href="catalog.html">Крема</a></li>
+											<li class="li"><a href="catalog.html">Ласьоны</a></li>
+											<li class="li"><a href="catalog.html">Мыло</a></li>
+											<li class="li"><a href="catalog.html">Сыворотки</a></li>
+											<li class="li"><a href="catalog.html">Маски</a></li>
+											<li class="li"><a href="catalog.html">Для жирной кожи</a></li>
+											<li class="li"><a href="catalog.html">Очищение</a></li>
+										</ol>
+									</li>
+								</label>
+							</ul>
+						</li>
+						<li><a href="new-goods.html">Новинки</a></li>
+						<li><a href="about-us.html">О компании</a></li>
+						<li><a href="contact-us.html">Контакты</a></li>
+					</ul>
+				</nav>
+
+				<div class="header__bottom-search">
+					<input type="search" placeholder="Введите для поиска">
+					<button type="submit" class="header__bottom-search__btn"><img src="img/search-light.png" alt=""></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden">
+			<form class="callback-form" id="callback-form">
+				<div class="callback-form__inner">
+					<div class="callback-form__title">Оставьте Ваши данные и наш менеджер свяжется с Вами.</div>	
+					<input type="text" placeholder="Введите Ваше имя">
+					<input type="text" placeholder="Введите Ваш телефон">
+					<div class="callback-form__btn">
+						<a href="#" class="btn">ОСТАВИТЬ ЗАЯВКУ</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	
+	<!-- start of main content -->
+
+	<main id="new-goods">	
+		<div class="new-goods">
+			<div class="container">
+				<ul class="tabs">
+					<li data-id="tab-1" class="tab active">Уход за кожей</li>
+					<li data-id="tab-2" class="tab">Уход за волосами</li>
+					<li data-id="tab-3" class="tab">Эко моющие средства</li>
+				</ul>
+
+				<div class="tabs-content">
+					<div id="tab-1" class="tab-item active">
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<ul class="pagination">
+							<li><a href="#" class="pagination-item active">1</a></li>
+							<li><a href="#" class="pagination-item">2</a></li>
+							<li><a href="#" class="pagination-item">3</a></li>
+							<li><a href="#" class="pagination-item">4</a></li>
+							<li><a href="#" class="pagination-item">5</a></li>
+							<li><a href="#" class="pagination-item">6</a></li>
+						</ul>
+					</div>
+
+					<div id="tab-2" class="tab-item">
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<ul class="pagination">
+							<li><a href="#" class="pagination-item active">1</a></li>
+							<li><a href="#" class="pagination-item">2</a></li>
+							<li><a href="#" class="pagination-item">3</a></li>
+							<li><a href="#" class="pagination-item">4</a></li>
+							<li><a href="#" class="pagination-item">5</a></li>
+							<li><a href="#" class="pagination-item">6</a></li>
+						</ul>
+					</div>
+
+					<div id="tab-3" class="tab-item">
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<div class="goods-item">
+							<div class="goods-item__img">
+								<span class="goods-item__new">новинка</span>
+								<img src="img/goods.png" alt="">
+							</div>
+							<div class="goods-item__title"><a href="single-goods.html">Название товара</a></div>
+							<div class="goods-item__cost">2 640 Р</div>
+							<div class="goods-item__btn"><button type="submit" class="cart-btn">В корзину</button></div>
+						</div>
+
+						<ul class="pagination">
+							<li><a href="#" class="pagination-item active">1</a></li>
+							<li><a href="#" class="pagination-item">2</a></li>
+							<li><a href="#" class="pagination-item">3</a></li>
+							<li><a href="#" class="pagination-item">4</a></li>
+							<li><a href="#" class="pagination-item">5</a></li>
+							<li><a href="#" class="pagination-item">6</a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- end of main content -->
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer-column">
+						<a href="index.html" class="footer__logo"><img src="img/footer-logo.png" alt=""></a href="index.html">
+						<div class="footer__copyright">© TopLife 2019. Все прва защищены.</div>
+						<a href="#" class="footer__privacy"><span>Политика конфиденциальности</span></a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a href="index.html">Главная</a>
+						<a href="catalog.html">Каталог</a>
+						<a class="active" href="new-goods.html">Новинки</a>
+					</div>
+
+					<div class="footer-column footer-nav">
+						<a href="about-us.html">О компании</a>
+						<a href="contact-us.html">Контакты</a>
+						<a href="#">Бизнес с TopLife</a>
+					</div>
+
+					<div class="footer-column">
+						<a href="tel:88007774527" class="footer__phone"><img src="img/phone.png" alt="">8 800 777 48 27</a>
+						<a href="#" class="footer__mail"><img src="img/mail.png" alt="">info@toplife.spb.ru</a>
+					</div>
+
+					<div class="footer-column">
+						<div class="footer__map"><img src="img/map-mark.png" alt="">Санкт-Петербург, Богатырский пр. дом 14 к2 </div>
+						<a href="#" class="footer__find"><span>найти на карте</span></a>
+					</div>
+				</div>
+				
+				<ul class="footer-nav-mobile">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a class="active" href="new-goods.html">Новинки</a></li>
+					<li><a href="about-us.html">О компании</a></li>
+					<li><a href="contact-us.html">Контакты</a></li>
+					<li><a href="#">Бизнес с TopLife</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</footer>	
+<div class="scripts">
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</div>
+</body>
+</html>
